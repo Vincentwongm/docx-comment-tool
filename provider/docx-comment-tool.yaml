@@ -1,0 +1,15 @@
+﻿identity:
+  name: docx_comment_tool
+  author: vincentwongm
+  label:
+    en_US: DOCX Comment Tool
+    zh_Hans: Word鏂囨。鎵规敞宸ュ叿
+  description:
+    en_US: A tool for adding comments to docx files.
+    zh_Hans: 鏍规嵁JSON杈撳叆涓篋OCX鏂囨。娣诲姞鎵规敞銆?
+  icon: icon.svg
+tools:
+  - tools/docx-comment-tool.yaml
+extra:
+  python:
+    source: provider/docx-comment-tool.py
